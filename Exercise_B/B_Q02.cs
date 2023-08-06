@@ -6,14 +6,16 @@ using System.Threading.Tasks;
 
 namespace Exercise
 {
-    internal class A_Q4
+    internal class B_Q02
     {
         static void Main(string[] args)
         {
             Console.Write("Please enter a number: ");
             double num = double.Parse(Console.ReadLine());
             //double num = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine($"The square of that number is {num * num}.");
+            double sqrt = Math.Sqrt(num);
+            Console.WriteLine($"The square root of {num} is {sqrt:0.000}.");
+            //Console.WriteLine("The square root of {0} is {1:0.000}.", num, sqrt);
         }
     }
 }

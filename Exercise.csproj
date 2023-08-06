@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Exercise.A_Q5</StartupObject>
+    <StartupObject>Exercise.B_Q10</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,15 +46,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="A_Q1.cs" />
-    <Compile Include="A_Q2.cs" />
-    <Compile Include="A_Q3.cs" />
-    <Compile Include="A_Q4.cs" />
-    <Compile Include="A_Q5.cs" />
+    <Compile Include="Exercise_B\B_Q10.cs" />
+    <Compile Include="Exercise_B\B_Q08.cs" />
+    <Compile Include="Exercise_B\B_Q09.cs" />
+    <Compile Include="Exercise_A\A_Q1.cs" />
+    <Compile Include="Exercise_A\A_Q2.cs" />
+    <Compile Include="Exercise_A\A_Q3.cs" />
+    <Compile Include="Exercise_A\A_Q4.cs" />
+    <Compile Include="Exercise_A\A_Q5.cs" />
+    <Compile Include="Exercise_B\B_Q01.cs" />
+    <Compile Include="Exercise_B\B_Q02.cs" />
+    <Compile Include="Exercise_B\B_Q03.cs" />
+    <Compile Include="Exercise_B\B_Q04.cs" />
+    <Compile Include="Exercise_B\B_Q05.cs" />
+    <Compile Include="Exercise_B\B_Q06.cs" />
+    <Compile Include="Exercise_B\B_Q07.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
