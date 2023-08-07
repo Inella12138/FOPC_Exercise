@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Exercise.B_Q10</StartupObject>
+    <StartupObject>Exercise_C.Q5</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,10 +46,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Exercise_A\A_Q1.cs" />
     <Compile Include="Exercise_B\B_Q10.cs" />
     <Compile Include="Exercise_B\B_Q08.cs" />
     <Compile Include="Exercise_B\B_Q09.cs" />
-    <Compile Include="Exercise_A\A_Q1.cs" />
     <Compile Include="Exercise_A\A_Q2.cs" />
     <Compile Include="Exercise_A\A_Q3.cs" />
     <Compile Include="Exercise_A\A_Q4.cs" />
@@ -61,6 +61,11 @@
     <Compile Include="Exercise_B\B_Q05.cs" />
     <Compile Include="Exercise_B\B_Q06.cs" />
     <Compile Include="Exercise_B\B_Q07.cs" />
+    <Compile Include="Exercise_C\C_Q1.cs" />
+    <Compile Include="Exercise_C\C_Q2.cs" />
+    <Compile Include="Exercise_C\C_Q3.cs" />
+    <Compile Include="Exercise_C\C_Q4.cs" />
+    <Compile Include="Exercise_C\C_Q5.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

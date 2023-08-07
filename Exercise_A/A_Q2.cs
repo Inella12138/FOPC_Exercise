@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Exercise
+namespace Exercise_A
 {
-    internal class A_Q2
+    internal class Q2
     {
         static void Main(string[] args)
         {

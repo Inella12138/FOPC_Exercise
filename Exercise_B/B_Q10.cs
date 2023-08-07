@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Exercise
+namespace Exercise_B
 {
-    internal class B_Q10
+    internal class Q10
     {
         static void Main(string[] args)
         {
@@ -18,7 +18,7 @@ namespace Exercise
             l[0] = double.Parse(v[0]);
             l[1] = double.Parse(v[1]);
             l[2] = double.Parse(v[2]);
-            double t = 0;
+            double t;
             for (int j = 0; j < 2; j++)
             {
                 for (int i = 0; i < 2; i++)
