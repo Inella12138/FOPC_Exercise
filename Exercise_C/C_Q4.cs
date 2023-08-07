@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Timers;
 
-namespace Exercise_C
+namespace Exercise
 {
-    internal class Q4
+    internal class C_Q4
     {
         static void Main(string[] args)
         {
