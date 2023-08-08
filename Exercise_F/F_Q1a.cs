@@ -12,7 +12,7 @@ namespace Exercise
         {
             Console.Write("Please enter a phrase: ");
             string p = Console.ReadLine();
-            string vow = "aeiou";   //use .Contains to tell whether a letter is a vowel
+            string vow = "aeiou";   //use .Contains() to tell whether a letter is a vowel
             string t;               //temporary, act as a container of substring
             p = p.ToLower();        //easier for compare, no need to care about capitals, AEIOU
             int sum = 0;            //a counter
