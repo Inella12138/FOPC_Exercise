@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Exercise.F_Q6</StartupObject>
+    <StartupObject>Exercise.G_Q1</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -85,6 +85,8 @@
     <Compile Include="Exercise_F\F_Q5a.cs" />
     <Compile Include="Exercise_F\F_Q5b.cs" />
     <Compile Include="Exercise_F\F_Q6.cs" />
+    <Compile Include="Exercise_G\G_Q1.cs" />
+    <Compile Include="Exercise_G\G_Q2.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

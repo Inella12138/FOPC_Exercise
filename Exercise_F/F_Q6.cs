@@ -13,22 +13,22 @@ namespace Exercise
         {
             Console.Write("Enter a matriculation number: ");
             string user = Console.ReadLine();
-            bool flag = true;
+            bool flag = true;//to tell output in an easier way
+            
             if (user.Length != 7) { flag = false; }
-            user = user.ToUpper();
-            string num = user.Substring(1, 5);
-            string checksum = user.Substring(6, 1);
-            int[] n = new int[5];
-            int sum = 0;
-            int remainder;
-            while (flag) 
+            while (flag) //when user.Length != 7, no need to check
             {
-                for (int i = 0; i < 5; i++) 
+                user = user.ToUpper();
+                string num = user.Substring(1, 5);
+                string checksum = user.Substring(6, 1);
+                int sum = 0;
+                int remainder;
+                for (int i = 0; i < 5; i++)
                 {
                     sum = sum + (6 - i) * int.Parse(num.Substring(i, 1));
                 }
                 remainder = sum % 5;
-                switch (remainder) 
+                switch (remainder)
                 {
                     case 0:
                         if (checksum == "O") { break; }
