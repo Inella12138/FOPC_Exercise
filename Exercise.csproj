@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Exercise.G_Q3</StartupObject>
+    <StartupObject>Exercise.F_Q5b</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />

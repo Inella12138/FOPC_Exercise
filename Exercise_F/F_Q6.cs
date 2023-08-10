@@ -16,16 +16,18 @@ namespace Exercise
             bool flag = true;//to tell output in an easier way
             
             if (user.Length != 7) { flag = false; }
-            while (flag) //when user.Length != 7, no need to check
+            if (flag) //when user.Length != 7, no need to check
             {
                 user = user.ToUpper();
-                string num = user.Substring(1, 5);
+                //string num = user.Substring(1, 5);
                 string checksum = user.Substring(6, 1);
                 int sum = 0;
                 int remainder;
                 for (int i = 0; i < 5; i++)
                 {
-                    sum = sum + (6 - i) * int.Parse(num.Substring(i, 1));
+                    //sum = sum + (6 - i) * int.Parse(num.Substring(i, 1));
+                    sum = sum + (6 - i) * int.Parse(user.Substring(i + 1, 1));
+                    //sum = sum + (6 - i) * Convert.ToInt32(user[i + 1]);
                 }
                 remainder = sum % 5;
                 switch (remainder)
@@ -46,7 +48,7 @@ namespace Exercise
                         if (checksum == "S") { break; }
                         else { flag = false; break; }
                 }
-                break;
+                
             }
             if (flag) { Console.WriteLine("Valid"); }
             else{ Console.WriteLine("Invalid"); }
