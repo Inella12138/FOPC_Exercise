@@ -16,10 +16,12 @@ namespace Exercise
             string r = "";
             string s = "";
             p = p.ToLower();
+            string[] others = { ".", " ", "?", "!", "," };
             for (int i = 0; i < p.Length; i++) 
             {
                 t = p.Substring(i, 1);
-                if (!t.Equals(".") && !t.Equals(" "))
+                //if (!t.Equals(".") && !t.Equals(" "))
+                if (!others.Contains(t))
                 {
                     s = s + t;//form a string without " "and "."
                 }
