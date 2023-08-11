@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Exercise.H_Q6</StartupObject>
+    <StartupObject>Exercise.H_Q8</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -88,14 +88,14 @@
     <Compile Include="Exercise_G\G_Q1.cs" />
     <Compile Include="Exercise_G\G_Q2.cs" />
     <Compile Include="Exercise_G\G_Q3.cs" />
-    <Compile Include="H_Q1.cs" />
-    <Compile Include="H_Q2.cs" />
-    <Compile Include="H_Q3.cs" />
-    <Compile Include="H_Q4.cs" />
-    <Compile Include="H_Q5.cs" />
-    <Compile Include="H_Q6.cs" />
-    <Compile Include="H_Q7.cs" />
-    <Compile Include="H_Q8.cs" />
+    <Compile Include="Exercise_H\H_Q1.cs" />
+    <Compile Include="Exercise_H\H_Q2.cs" />
+    <Compile Include="Exercise_H\H_Q3.cs" />
+    <Compile Include="Exercise_H\H_Q4.cs" />
+    <Compile Include="Exercise_H\H_Q5.cs" />
+    <Compile Include="Exercise_H\H_Q6.cs" />
+    <Compile Include="Exercise_H\H_Q7.cs" />
+    <Compile Include="Exercise_H\H_Q8.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
