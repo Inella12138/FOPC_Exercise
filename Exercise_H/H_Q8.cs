@@ -32,15 +32,27 @@ namespace Exercise
             return Math.Sqrt (x);
         }
 
+        static double Plus (double x)
+        {
+            return x+1;
+        }
+
+        static double Minus (double x)
+        {
+            return x-1;
+        }
+
         static void Main(string[] args)
         {
             double[] a = { 1, 2, 3, 4, 5 };
             double[] pow = ProcessArray(a, Square);
             double[] sqrt = ProcessArray(a, SquareRoot);
+            double[] plus = ProcessArray(a, Plus);
+            double[] minus = ProcessArray(a, Minus);
             Console.WriteLine("arr\tpow\tsqrt");
             for (int i = 0;i < a.Length;i++)
             {
-                Console.WriteLine($"{a[i]}\t{pow[i]}\t{sqrt[i]:0.###}");
+                Console.WriteLine($"{a[i]}\t{pow[i]}\t{sqrt[i]:0.###}\t{plus[i]}\t{minus[i]}");
             }
         }
     }
