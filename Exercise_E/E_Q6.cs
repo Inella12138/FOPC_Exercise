@@ -15,11 +15,10 @@ namespace Exercise
             {
                 int i = 2;
                 int sum = 1;
-                while (true)
+                while (i * i <= sum) 
                 {
                     if (num % i == 0) { sum = sum + i + num / i; }
                     i++;
-                    if (i * i > num) { break; }
                 }
                 if (sum == num) { Console.Write($"{num}\t"); }
                 num++;

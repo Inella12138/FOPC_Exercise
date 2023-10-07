@@ -12,7 +12,7 @@ namespace Exercise
         {
             Console.Write("Please enter a phrase: ");
             string p = Console.ReadLine();
-            string t;
+            string t,t1;
             string r = "";
             string s = "";
             p = p.ToLower();
@@ -20,20 +20,15 @@ namespace Exercise
             for (int i = 0; i < p.Length; i++) 
             {
                 t = p.Substring(i, 1);
-                //if (!t.Equals(".") && !t.Equals(" "))
+                t1 = p.Substring(p.Length - 1 - i, 1);
                 if (!others.Contains(t))
                 {
                     s = s + t;//form a string without " "and "."
                 }
-            }
-            for (int i = p.Length - 1; i >= 0; i--)
-            {
-                t = p.Substring(i, 1);
-                if (!t.Equals(".") && !t.Equals(" ")) 
+                if (!others.Contains(t1))
                 {
-                    r = r + t;//form an inverted string without " "and "."
+                    r = r + t;
                 }
-                
             }
             if (r.Equals(s)) { Console.Write("The phrase is a palindrome."); }
             else { Console.Write("The phrase is NOT a palindrome."); }
